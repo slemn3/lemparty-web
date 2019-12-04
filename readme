@@ -1,0 +1,9 @@
+-apache rules are in local: /etc/apache2/extra/httpd-vhosts.conf
+	-- sudo httpd -k start/restart
+
+
+
+	 MONGO
+db.batch.update({"batchName": "Habanero"}, {$set:{"pathImage":"/img/habanero_fall_2019.jpg"}})
+> db.batch.find()
+> db.batch.remove({"batchName" : {$exists:true}})

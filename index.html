@@ -1,0 +1,34 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
+
+</head>
+<body style="background-color: #FFFACD">
+<div style="height:75vh;width:100vw;background-image:url('./img/lemparty-full.png');background-size:50%;background-repeat:no-repeat;background-position:top;background-color: #FFFACD"> 
+</div>
+
+<div id="text-container">
+test test
+</div>
+
+<div id="update">
+  Batch name:<br>
+  <input type="text" name="batchName"><br>
+  Season:<br>
+  <input type="text" name="season"><br>
+  Image Path:<br>
+  <input type="text" name="pathImage"><br>
+  WeightSource:<br>
+  <input type="text" name="weightSource"><br>
+  Origin Date:<br>
+  <input type="text" name="dateOrigin"><br>
+  Weight Current:<br>
+  <input type="text" name="weightCurrent"><br>
+  <input type="hidden" name="verb" value="create"><br>
+    <button type="button" onclick="submit('update')">Update</button>
+
+  <button type="button" onclick="submit('create')">Create</button>
+</div>
+</body>
+</html>
